@@ -1,0 +1,92 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+
+nav li{
+    display: inline;
+    margin: 24px;
+}
+
+nav ul{
+    background-color: lightblue;
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+nav{
+    display: block;
+    color: white;
+}
+
+
+nav a{
+    text-decoration: none;
+}
+
+
+.hero-text{
+    text-align: center;
+    background-color: white;
+}
+
+
+#main{
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#side{
+    width: 20%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+
+.side-articles ul{
+    list-style-type: none;
+}
+
+.side-articles, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles{
+    background-color: grey;
+    text-align: center;
+}
+
+.main-articles{
+    background-color: lightgrey;
+}
+
+form{
+    margin-top: 20px;
+}
+
+textarea, input{
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;   
+}
+
+main{
+    overflow: auto;
+}
